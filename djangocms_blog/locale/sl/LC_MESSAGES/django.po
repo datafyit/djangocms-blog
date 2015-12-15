@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-15 15:09+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+
+#: cms_app.py:8 cms_plugins.py:54 cms_plugins.py:68 cms_plugins.py:79
+#: cms_plugins.py:90 cms_toolbar.py:18
+msgid "Blog"
+msgstr "Blog"
+
+#: cms_plugins.py:23 cms_plugins.py:41
+msgid "Latest Blog Articles"
+msgstr "Najnovejše blog objave"
+
+#: cms_plugins.py:55
+msgid "Author Blog Articles"
+msgstr "Avtorjeve blog objave"
+
+#: cms_plugins.py:69 templates/djangocms_blog/plugins/tags.html.py:4
+msgid "Tags"
+msgstr "Oznake"
+
+#: cms_plugins.py:80 templates/djangocms_blog/plugins/categories.html.py:4
+msgid "Categories"
+msgstr "Kategorije"
+
+#: cms_plugins.py:91 templates/djangocms_blog/plugins/archive.html.py:4
+#: templates/djangocms_blog/post_list.html:12
+msgid "Archive"
+msgstr "Arhiv"
+
+#: cms_toolbar.py:20
+msgid "Post list"
+msgstr "Seznam objav"
+
+#: cms_toolbar.py:22
+msgid "Add post"
+msgstr "Nova objava"
+
+#: cms_toolbar.py:26
+msgid "Edit Post"
+msgstr "Uredi objavo"
+
+#: feeds.py:16
+#, python-format
+msgid "Blog articles on %(site_name)s"
+msgstr "Blog objave na %(site_name)s"
+
+#: models.py:31
+msgid "parent"
+msgstr "starš"
+
+#: models.py:33
+msgid "created at"
+msgstr "ustvarjeno na"
+
+#: models.py:34
+msgid "modified at"
+msgstr "urejeno na"
+
+#: models.py:37
+msgid "name"
+msgstr "ime"
+
+#: models.py:38 models.py:108
+msgid "slug"
+msgstr ""
+
+#: models.py:45
+msgid "blog category"
+msgstr "blog kategorija"
+
+#: models.py:46
+msgid "blog categories"
+msgstr "blog kategorije"
+
+#: models.py:70
+msgid "Author"
+msgstr "Avtor"
+
+#: models.py:75
+msgid "Published Since"
+msgstr "objavljeno od"
+
+#: models.py:77
+msgid "Published Until"
+msgstr "objavljeno do"
+
+#: models.py:79
+msgid "Publish"
+msgstr "Objavi"
+
+#: models.py:80
+msgid "category"
+msgstr "kategorija"
+
+#: models.py:82
+msgid "Main image"
+msgstr "Glavna slika"
+
+#: models.py:86
+msgid "Main image thumbnail"
+msgstr "Glavna slika - predogled"
+
+#: models.py:91
+msgid "Main image full"
+msgstr "Glavna slika - polna"
+
+#: models.py:96
+msgid "Enable comments on post"
+msgstr "Omogoči komentarje na objavi"
+
+#: models.py:99
+msgid "Site(s)"
+msgstr "Stran(i)"
+
+#: models.py:101
+msgid ""
+"Select sites in which to show the post. If none is set it will be visible in "
+"all the configured sites."
+msgstr "Izberi strani na katerih naj bo objava prikazana. V primeru praznega izbora, bo objava prikazana na vseh nastavljenih straneh."
+
+#: models.py:107
+msgid "Title"
+msgstr "Naziv"
+
+#: models.py:109
+msgid "Abstract"
+msgstr "Osnutek"
+
+#: models.py:110
+msgid "Post meta description"
+msgstr "Meta opis objave"
+
+#: models.py:112
+msgid "Post meta keywords"
+msgstr "Meta ključne besede objave"
+
+#: models.py:114
+msgid "Post meta title"
+msgstr "Meta naziv objave"
+
+#: models.py:115
+msgid "used in title tag and social sharing"
+msgstr "uporabljeno v oznaki naziva in za deljenje na socialnih omrežjih"
+
+#: models.py:118
+msgid "Text"
+msgstr "Tekst"
+
+#: models.py:181
+msgid "blog article"
+msgstr "blog objava"
+
+#: models.py:182
+msgid "blog articles"
+msgstr "blog objave"
+
+#: models.py:243 models.py:270
+msgid "Articles"
+msgstr "Objave"
+
+#: models.py:244
+msgid "The number of latests articles to be displayed."
+msgstr "Število zadnjih objav, ki naj se prikažejo"
+
+#: models.py:246
+msgid "Show only the blog articles tagged with chosen tags."
+msgstr "Prikazane naj bodo le blog objave z izbranimi oznakami."
+
+#: models.py:248
+msgid "Show only the blog articles tagged with chosen categories."
+msgstr "Prikazane naj bodo le blog objave z izbranimi kategorijami."
+
+#: models.py:266 templates/djangocms_blog/plugins/authors.html.py:3
+msgid "Authors"
+msgstr "Avtorji"
+
+#: models.py:271
+msgid "The number of author articles to be displayed."
+msgstr "Število prikazanih avtorjev objave"
+
+#: templates/djangocms_blog/includes/blog_item.html:25
+msgid "read more"
+msgstr "preberi več"
+
+#: templates/djangocms_blog/includes/blog_meta.html:7
+msgid "by"
+msgstr ""
+
+#: templates/djangocms_blog/plugins/archive.html:18
+#: templates/djangocms_blog/plugins/authors.html:10
+#: templates/djangocms_blog/plugins/categories.html:11
+#: templates/djangocms_blog/plugins/tags.html:11
+#, python-format
+msgid "1 article"
+msgid_plural "%(articles)s articles"
+msgstr[0] "1 objava"
+msgstr[1] "%(articles)s objave"
+
+#: templates/djangocms_blog/plugins/archive.html:19
+#: templates/djangocms_blog/plugins/authors.html:11
+#: templates/djangocms_blog/plugins/categories.html:12
+#: templates/djangocms_blog/plugins/tags.html:12
+msgid "0 articles"
+msgstr "0 objav"
+
+#: templates/djangocms_blog/plugins/archive.html:27
+#: templates/djangocms_blog/plugins/authors.html:15
+#: templates/djangocms_blog/plugins/latest_entries.html:7
+#: templates/djangocms_blog/plugins/tags.html:16
+#: templates/djangocms_blog/post_list.html:21
+msgid "No article found."
+msgstr "Najdenih 0 objav."
+
+#: templates/djangocms_blog/plugins/categories.html:16
+msgid "No categories found."
+msgstr "Najdenih 0 kategorij."
+
+#: templates/djangocms_blog/post_list.html:11
+msgid "Articles by"
+msgstr "Objave avtorja"
+
+#: templates/djangocms_blog/post_list.html:13
+msgid "Tag"
+msgstr "Oznaka"
+
+#: templates/djangocms_blog/post_list.html:14
+msgid "Category"
+msgstr "Kategorija"
+
+#: templates/djangocms_blog/post_list.html:24
+msgid "Back"
+msgstr "Nazaj"
+
+#: templates/djangocms_blog/post_list.html:29
+msgid "previous"
+msgstr "prejšnji(a)"
+
+#: templates/djangocms_blog/post_list.html:32
+msgid "Page"
+msgstr "Stran"
+
+#: templates/djangocms_blog/post_list.html:32
+msgid "of"
+msgstr "od"
+
+#: templates/djangocms_blog/post_list.html:35
+msgid "next"
+msgstr "naslednji"
